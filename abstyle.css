@@ -1,0 +1,29 @@
+
+body{
+    background-color: black;
+}
+
+h1{
+    color:antiquewhite;
+    font-family: fantasy;
+}
+
+.carousel .carousel-inner{
+    height:500px
+    }
+    .carousel-inner .carousel-item img{
+    min-height:800px;
+    /* //prevent it from stretch in screen size < than 768px */
+    object-fit: fill;
+    }
+    
+    @media(max-width:768px){
+     .carousel .carousel-inner{ 
+    height:auto
+     }
+    }
+
+
+.h4{
+    color: whitesmoke;
+}
