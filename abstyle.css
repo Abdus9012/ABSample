@@ -1,15 +1,27 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+
+/* *{
+    outline: 1px solid hotpink;
+} */
 body{
     background-color: black;
     padding: 3px;
     border: 4px;
     margin: 2px;
     padding-left: 50px;
+    /* font-family: 'Bruno Ace SC', cursive; */
 }
 
 h1,h2{
-    color:antiquewhite;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: linear-gradient(to right, #f00, #00f);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent; */
+    color: whitesmoke;
+    font-family: 'Bruno Ace SC', cursive;
 }
 
 .carousel .carousel-inner{
