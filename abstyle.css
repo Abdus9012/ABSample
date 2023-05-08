@@ -1,11 +1,15 @@
 
 body{
     background-color: black;
+    padding: 3px;
+    border: 4px;
+    margin: 2px;
+    padding-left: 50px;
 }
 
-h1{
+h1,h2{
     color:antiquewhite;
-    font-family: fantasy;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .carousel .carousel-inner{
@@ -27,3 +31,4 @@ h1{
 .h4{
     color: whitesmoke;
 }
+
