@@ -44,3 +44,37 @@ h1,h2{
     color: whitesmoke;
 }
 
+/* .button {
+    background-color: whitesmoke;
+    border: none;
+    color: red;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    font-family:'Bruno Ace SC', cursive;
+  } */
+
+  .bt{
+    display: float;
+    float: left;
+    position: relative;
+    top: 190px;
+  }
+
+ /* @media screen and (max-width:400px){
+    .bt{
+        text-align: center;
+        top:2px;
+    }
+    /* body {
+        background-image: url("images/cover.png");
+        background-repeat: no-repeat; 
+        background-attachment: local;
+        background-size: 50% 20%; 
+        background-color: aqua; 
+    } */
+/* } */
+
+

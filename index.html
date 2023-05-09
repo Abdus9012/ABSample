@@ -6,10 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AB+</title>
     <link rel="stylesheet" href="abstyle.css">
+    <style>
+        body {
+        background-image: url("images/cover.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 180%;
+    }
+
+    @media screen and (max-width:400px){
+        .bt{
+            text-align: center;
+            top: 230px;
+            left: -50px;
+        }
+        body{
+            background-image: url("images/cover.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 150% 150%;
+        }
+    }
+
+    </style>
 </head>
 <body>
     <h1 align="center">Welcome to AB+ </h1>
-    <h1 align="center">Please <a href="https://abwebappsampledemo.auth.us-east-2.amazoncognito.com/login?client_id=49ip0egj4b6bl8g4tccvo6v6sk&response_type=code&scope=email+openid+phone&redirect_uri=https://abdus9012.github.io/ABSample/main.html">login</a> to view our content</h1>
+    <h1 class="bt">Please  <a href="https://abwebappsampledemo.auth.us-east-2.amazoncognito.com/login?client_id=49ip0egj4b6bl8g4tccvo6v6sk&response_type=code&scope=email+openid+phone&redirect_uri=https://abdus9012.github.io/ABSample/main.html">login</a> to view our content</h1>
     
 </body>
 </html>
